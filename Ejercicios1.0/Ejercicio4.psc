@@ -17,7 +17,7 @@ Algoritmo Ejercicio4
 			Escribir "El mayor es " num_2;
 		Fin Si
 	SiNo
-		Escribir "El mayor es " num_3;
+		Escribir "El mayor es num_3 ";
 	Fin Si
 	
 FinAlgoritmo
