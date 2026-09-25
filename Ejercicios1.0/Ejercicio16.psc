@@ -15,7 +15,7 @@ Algoritmo Ejercicio16
 			acertado = verdadero;
 		SiNo
 			intento = intento +1;
-			Escribir "Clave es incorrecto";
+			Escribir "¡Clave es incorrecto!";
 		Fin Si
 	Fin Mientras
 	
