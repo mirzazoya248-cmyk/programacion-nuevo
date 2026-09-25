@@ -9,17 +9,16 @@ Algoritmo Ejercicio15
 	suma = 0;
 	contrado =0;
 	
-	Mientras num <> -1 Hacer
+	Mientras (num <> -1) Hacer
 		suma = suma + num;
 		contrado = contrado +1;
 		Escribir "Dime el numero";
 		Leer num;
 	Fin Mientras
 	
-	Si contrado >0 Entonces
+	Si (contrado >0) Entonces
 		media = suma/contrado;
 		Escribir "La media aritmetica es " media;
-		Leer media;
 	SiNo
 		Escribir "No se introdujeron numeros";
 	Fin Si

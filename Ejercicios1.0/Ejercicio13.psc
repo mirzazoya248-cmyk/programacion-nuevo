@@ -1,9 +1,9 @@
 Algoritmo Ejercicio13
 	
-	Definir num, suma, i Como Entero;
+	Definir N, suma, i Como Entero;
 	
 	Escribir "Dime el numero";
-	Leer num;
+	Leer N;
 	
 	suma =0;
 	
