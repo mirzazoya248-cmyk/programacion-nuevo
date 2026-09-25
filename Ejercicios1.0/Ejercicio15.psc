@@ -1,23 +1,23 @@
 Algoritmo Ejercicio15
 	
-	Definir num, suma, contrado Como Entero;
+	Definir num, suma, contador Como Entero;
 	Definir media Como Real;
 	
 	Escribir "Dime el numero";
 	Leer num;
 	
 	suma = 0;
-	contrado =0;
+	contador =0;
 	
 	Mientras (num <> -1) Hacer
 		suma = suma + num;
-		contrado = contrado +1;
+		contador = contador +1;
 		Escribir "Dime el numero";
 		Leer num;
 	Fin Mientras
 	
-	Si (contrado >0) Entonces
-		media = suma/contrado;
+	Si (contador >0) Entonces
+		media = suma/contador;
 		Escribir "La media aritmetica es " media;
 	SiNo
 		Escribir "No se introdujeron numeros";
